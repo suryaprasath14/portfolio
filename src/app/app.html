@@ -1,0 +1,27 @@
+<!-- Custom Glowing Magnetic Cursor -->
+<app-custom-cursor></app-custom-cursor>
+
+<!-- Kinetic Neural Background Canvas -->
+<app-interactive-background></app-interactive-background>
+
+<!-- Main App Surface -->
+<div class="app-layout">
+  <!-- Top Blurred Glass Header Navigation -->
+  <app-navbar (terminalTriggered)="openTerminal()"></app-navbar>
+
+  <!-- Interactive Page Content -->
+  <main class="main-content">
+    <app-hero></app-hero>
+    <app-architecture-playground></app-architecture-playground>
+    <app-projects></app-projects>
+    <app-skills></app-skills>
+    <app-experience></app-experience>
+    <app-contact></app-contact>
+  </main>
+
+  <!-- System Telemetry Footer -->
+  <app-footer></app-footer>
+</div>
+
+<!-- Interactive Developer UNIX/CLI Terminal Modal -->
+<app-interactive-terminal></app-interactive-terminal>

@@ -158,15 +158,16 @@ export type PhotoChoice = 'real' | 'ai';
 
               </div>
 
-              <!-- Floating Interactive YouTube / Play Badge on the left perimeter (from reference) -->
+              <!-- Floating Interactive Tech Badge on the left perimeter -->
               <button 
                 type="button" 
-                class="floating-play-pill" 
+                class="floating-tech-pill" 
                 (click)="onPlayClick($event)"
                 (mouseenter)="audio.playHover()"
-                title="Play Interactive Architecture Demo">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                title="Explore Angular Architecture">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
                 </svg>
               </button>
 
@@ -553,18 +554,18 @@ export type PhotoChoice = 'real' | 'ai';
       pointer-events: none;
     }
 
-    /* Floating YouTube / Play Action Pill (from reference screenshot) */
-    .floating-play-pill {
+    /* Floating Tech Action Pill */
+    .floating-tech-pill {
       position: absolute;
       left: -22px;
       top: 42%;
-      width: 68px;
-      height: 50px;
-      border-radius: 16px;
-      background: #ff0000;
-      border: 2px solid rgba(255, 255, 255, 0.5);
-      box-shadow: 0 12px 30px rgba(255, 0, 0, 0.6), 0 0 25px #ff0000;
-      color: #ffffff;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: var(--theme-primary);
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 12px 30px var(--theme-glow), 0 0 25px var(--theme-primary);
+      color: #06080d;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -574,12 +575,12 @@ export type PhotoChoice = 'real' | 'ai';
       transition: all 0.25s var(--ease-spring);
       animation: float-gentle 5s ease-in-out infinite;
     }
-    .floating-play-pill:hover {
+    .floating-tech-pill:hover {
       transform: translateZ(65px) scale(1.15) translateY(-3px);
-      box-shadow: 0 16px 40px rgba(255, 0, 0, 0.8), 0 0 35px #ff0000;
-      filter: brightness(1.1);
+      box-shadow: 0 16px 40px var(--theme-glow-strong), 0 0 35px var(--theme-primary);
+      filter: brightness(1.15);
     }
-    .floating-play-pill:active {
+    .floating-tech-pill:active {
       transform: translateZ(50px) scale(0.95);
     }
 
@@ -702,9 +703,9 @@ export type PhotoChoice = 'real' | 'ai';
         width: 290px;
         height: 340px;
       }
-      .floating-play-pill {
-        width: 54px;
-        height: 40px;
+      .floating-tech-pill {
+        width: 44px;
+        height: 44px;
         left: -12px;
       }
       .satellite-pill {

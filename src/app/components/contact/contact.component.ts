@@ -127,22 +127,22 @@ import { AudioService } from '../../services/audio.service';
 
           </div>
 
-          <!-- Right: Interactive Message Dispatcher -->
+          <!-- Right: Direct Message Form -->
           <div class="dispatcher-column glass-card">
             <div class="form-header font-mono">
               <span class="terminal-dot"></span>
-              <span>COMMUNICATION_DISPATCH_PROTOCOL</span>
+              <span>SEND A DIRECT MESSAGE</span>
             </div>
 
             @if (submitted()) {
               <div class="success-screen font-mono">
                 <div class="success-icon">✓</div>
-                <h3 class="success-title">MESSAGE PACKET TRANSMITTED</h3>
+                <h3 class="success-title">MESSAGE SENT SUCCESSFULLY</h3>
                 <p class="success-desc">
-                  Thank you, {{ formData.name }}! Your message has been routed to Surya Prasath. You will receive a response at {{ formData.email }} promptly.
+                  Thank you, {{ formData.name }}! Your message has been sent to Surya Prasath. You will receive a response at {{ formData.email }} promptly.
                 </p>
                 <button type="button" class="cyber-btn" (click)="resetForm()">
-                  Send Another Transmission
+                  Send Another Message
                 </button>
               </div>
             } @else {
@@ -181,7 +181,7 @@ import { AudioService } from '../../services/audio.service';
                 </div>
 
                 <div class="form-group">
-                  <label class="font-mono">MESSAGE SPECIFICATION *</label>
+                  <label class="font-mono">YOUR MESSAGE *</label>
                   <textarea 
                     name="message" 
                     rows="5" 
@@ -193,7 +193,7 @@ import { AudioService } from '../../services/audio.service';
 
                 <div class="form-submit-row">
                   <span class="security-note font-mono">
-                    <span class="lock-icon">🔒</span> End-to-end encrypted direct dispatch
+                    Direct contact • Responds within 24 hours
                   </span>
                   <button 
                     type="submit" 
@@ -201,9 +201,9 @@ import { AudioService } from '../../services/audio.service';
                     [disabled]="isSending() || !formData.name || !formData.email || !formData.message"
                     (mouseenter)="audio.playHover()">
                     @if (isSending()) {
-                      <span>TRANSMITTING...</span>
+                      <span>SENDING...</span>
                     } @else {
-                      <span>Dispatch Transmission &rarr;</span>
+                      <span>Send Message &rarr;</span>
                     }
                   </button>
                 </div>

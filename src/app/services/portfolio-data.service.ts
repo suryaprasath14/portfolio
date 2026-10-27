@@ -50,7 +50,7 @@ export class PortfolioDataService {
     phone: '+91 8300066557',
     email: 'Suryaskprasath14@gmail.com',
     linkedin: 'https://linkedin.com/in/surya-sk-9b834b24b',
-    github: 'https://github.com',
+    github: 'https://github.com/suryaprasath14/portfolio',
     avatar: 'images/surya_ai.jpg',
     avatarAi: 'images/surya_ai.jpg',
     avatarOriginal: 'images/surya.jpg',
@@ -281,7 +281,7 @@ export class PortfolioDataService {
   - theme       : Switch theme (theme cyan | theme violet | theme emerald | theme amber)
   - matrix      : Toggle matrix digital rain mode
   - cat resume  : Quick summary of credentials
-  - sudo hire   : The fastest way to elevate your engineering team
+  - hire        : Connect with Surya to discuss engineering opportunities
   - clear       : Clear terminal window`,
     about: `K. SURYA PRASATH — Senior Front-End Developer
 Specialized in Angular (v10-v18+), RxJS, TypeScript, and high-performance SPAs.
@@ -308,8 +308,9 @@ Currently engineering mission-critical platforms at Latlon Technologies.`,
   • Phone   : +91 8300066557
   • LinkedIn: linkedin.com/in/surya-sk-9b834b24b
   • Location: Coimbatore, Tamil Nadu, India`,
-    'sudo hire': `[ACCESS GRANTED]
-Surya Prasath is ready to architect high-performance, enterprise-grade Angular solutions.
+    hire: `Surya Prasath is available for Senior Front-End Engineering roles and high-impact web consulting.
+Please reach out at Suryaskprasath14@gmail.com or call +91 8300066557!`,
+    'sudo hire': `Surya Prasath is available for Senior Front-End Engineering roles and high-impact web consulting.
 Please reach out at Suryaskprasath14@gmail.com or call +91 8300066557!`
   };
 }

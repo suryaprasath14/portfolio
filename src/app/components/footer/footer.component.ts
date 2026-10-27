@@ -70,8 +70,11 @@ import { AudioService } from '../../services/audio.service';
 
         <!-- Bottom Copyright Strip -->
         <div class="copyright-row font-mono">
-          <span>&copy; {{ currentYear }} K. Surya Prasath. Engineered with Angular &amp; TypeScript.</span>
+          <span>&copy; {{ currentYear }} K. Surya Prasath. Senior Front-End Developer &amp; Angular Architect.</span>
           <span class="tag-credit">Optimized for 60FPS Performance &amp; WCAG AA Accessibility</span>
+        </div>
+        <div class="privacy-notice font-mono">
+          <span>Personal Developer Portfolio • Hosted on Vercel • No personal data is stored or shared.</span>
         </div>
 
       </div>

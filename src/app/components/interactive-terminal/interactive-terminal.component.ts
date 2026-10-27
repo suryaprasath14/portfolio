@@ -43,7 +43,7 @@ interface CommandEntry {
             <button type="button" class="sugg-chip" (click)="runCommand('perf')">perf</button>
             <button type="button" class="sugg-chip" (click)="runCommand('skills')">skills</button>
             <button type="button" class="sugg-chip" (click)="runCommand('contact')">contact</button>
-            <button type="button" class="sugg-chip hire" (click)="runCommand('sudo hire')">sudo hire</button>
+            <button type="button" class="sugg-chip hire" (click)="runCommand('hire')">hire</button>
             <button type="button" class="sugg-chip" (click)="runCommand('clear')">clear</button>
           </div>
 

@@ -1,59 +1,61 @@
-# PortfolioSite
+# K. Surya Prasath — Senior Front-End Developer & Angular Architect
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.1.
+> Modern, High-Performance Angular Portfolio featuring interactive spatial UI, fluid morphing liquid neon avatar, 3D cursor parallax, Web Audio API synthesis, and an interactive Developer CLI.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Key Features
 
-```bash
-ng serve
-```
+- **Fluid Morphing Liquid Neon Avatar**: Organic liquid physics animation (`@keyframes morphBlob`) with multi-layered neon glow and 3D cursor tilt.
+- **Angular Architecture & Performance Lab**:
+  - Live benchmark comparison: **Modular Lazy Loading vs Monolithic SPA** (99 vs 54 Lighthouse score, 380 KB initial bundle, 0.7s FCP).
+  - **RxJS Reactive Stream Visualizer**: Interactive marble stream simulation demonstrating `debounceTime`, `distinctUntilChanged`, and `switchMap`.
+- **Interactive Developer CLI Terminal**: Simulated retro-futuristic terminal shell supporting `help`, `skills`, `projects`, `perf`, `sudo hire`, and custom theme switching.
+- **Production Case Studies**: 6 in-depth architectural case studies (ClinaNG Healthcare, VARIEX Analytics, Pharmacy Logistics, Smart Fleet Telemetry, Curevc Biotech, Delish E-Commerce).
+- **Web Audio API Synth**: Pure browser audio synthesis for cyber clicks, pips, and chimes (zero asset dependencies, fully muteable).
+- **Multi-Theme Engine**: Dynamic switching between **Neon Magenta / Rose**, **Cyan Neon**, **Violet Cyber**, **Emerald Matrix**, and **Solar Amber**.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Framework**: Angular 21 (Standalone Components, Signals, Reactive Forms, Lazy Loading)
+- **Languages**: TypeScript, JavaScript (ES6+), HTML5, SCSS
+- **State & Reactivity**: RxJS 7.8, Angular Signals
+- **Styling**: SCSS, CSS Custom Properties, Glassmorphism, Responsive Grid & Flexbox
+- **APIs & Tooling**: RESTful APIs, Git, GitLab, GitHub, Postman, Vite / Angular Build
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🏃 Local Development
 
-```bash
-ng generate --help
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://gitlab.com/suryaskprasath14/surya-portfolio.git
+   cd surya-portfolio
+   ```
 
-## Building
+2. **Install dependencies:**
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
-To build the project run:
+3. **Start development server:**
+   ```bash
+   npm start
+   ```
+   Open `http://localhost:4200` in your browser.
 
-```bash
-ng build
-```
+4. **Production Build:**
+   ```bash
+   npm run build
+   ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 📬 Contact & Connect
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Email**: Suryaskprasath14@gmail.com
+- **Phone**: +91 8300066557
+- **LinkedIn**: [linkedin.com/in/surya-sk-9b834b24b](https://linkedin.com/in/surya-sk-9b834b24b)
+- **Location**: Coimbatore, Tamil Nadu, India
